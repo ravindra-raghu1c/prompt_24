@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="https://i.pinimg.com/736x/9d/d2/56/9dd256318c06e78872f26351b63e055d.jpg" alt="Child in poverty">
+        </div>
+        <div class="form-section">
+            <h1>Make a Donation</h1>
+            <p>Every donation, no matter how big or small, makes a significant difference to our cause. Thank you for doing your part to help.</p>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="email" placeholder="Your email" required>
+                </div>
+                <div class="donation-group">
+                    <label>
+                        <input type="radio" name="donation" value="20" required> $20
+                    </label>
+                    <label>
+                        <input type="radio" name="donation" value="40"> $40
+                    </label>
+                    <label>
+                        <input type="radio" name="donation" value="60"> $60
+                    </label>
+                    <label>
+                        <input type="radio" name="donation" value="80"> $80
+                    </label>
+                    <label>
+                        <input type="radio" name="donation" value="100"> $100
+                    </label>
+                    <label class="other">
+                        <input type="radio" name="donation" value="other"> Other
+                        <input type="number" placeholder="Amount">
+                    </label>
+                </div>
+                <input type="text" placeholder="Company name (if applicable)">
+                <label>
+                    <input type="checkbox"> I would like to receive occasional updates via email
+                </label>
+                <button type="submit">Submit Donation</button>
+            </form>
+            <p class="disclaimer">We Can Make a Difference, Let's Start Now!</p>
+        </div>
+    </div>
+</body>
+</html>
